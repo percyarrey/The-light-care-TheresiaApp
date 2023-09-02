@@ -1,0 +1,54 @@
+.gradienttext {
+  background:linear-gradient(to right,rgb(0, 0, 218), #ff3939, #16f416);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+.navlinks{
+ transition: all 0.2s ease;
+ opacity: 0.7;
+}
+.navlinks:hover{
+  position: relative;
+  margin-top: 0.1rem;
+  margin-left: 0.2rem;
+  opacity:1;
+}
+.searchinput{
+  width:100% !important;
+}
+
+.imgcontrol{
+  height: 13rem;
+}
+
+
+.mybg{
+  background-color: rgba(0, 0, 0, 0.409) !important;
+  transition: all 0.3s ease;
+}
+.mybgChange{
+  background-color: rgb(74, 73, 73) !important;
+}
+
+@media (min-width: 700px) {
+  .imgcontrol{
+    height: 17rem !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .imgcontrol{
+    height: 26rem !important;
+  }
+  .imgcontrol img{
+   scale: 1.1 1.1;
+  }
+}
+
+@media (min-width: 1200px) {
+  .searchinput{
+    width: 100% !important;
+  }
+}

@@ -1,0 +1,12 @@
+if(window.scrollY>0){
+    document.getElementById('myNavbar').classList.add('mybgChange')
+}else{
+    document.getElementById('myNavbar').classList.remove('mybgChange')
+}
+window.addEventListener('scroll',()=>{
+    if(window.scrollY>0){ 
+        document.getElementById('myNavbar').classList.add('mybgChange')
+    }else{
+        document.getElementById('myNavbar').classList.remove('mybgChange')
+    }
+})
